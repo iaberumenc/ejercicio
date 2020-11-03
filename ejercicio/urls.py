@@ -11,4 +11,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'stockapp.views.index', name='index'),
+    url(r'^list_items/$', 'stockapp.views.list_items', name='list_items'),
 )
